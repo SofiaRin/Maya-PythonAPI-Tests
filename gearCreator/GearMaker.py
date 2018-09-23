@@ -32,15 +32,18 @@ def removeGear(name='Gear'):
 
 def changeGear(transform,constructor,extrudeAttr,teeth = 5, length = 0.2):
     spin = teeth*2
+    ##use edit flag to change target meshNode(constructor)
     cmds.polyPipe(constructor, edit = True, subdivisionsAxis=spin)
     faceNum = range(spin * 2, spin * 3, 2)
 
     cmds.select(clear=True)
+
+    newFaceList = []
     for face in faceNum:
-        print face
-        ##select target faces
-        cmds.select("%s.f[%s]" % (transform, face), add=True) or []
+        #build a new extrudeFaceList to upgrade the Node
+        newFaceList.append("f[%s]" % (face))
     ##attention this will create another extrude
     ##we just need to edit the current extrude attr
-    extrudeAttr = cmds.polyExtrudeFacet(ltz = length)[0]
+    print newFaceList;
+    cmds.setAttr("%s.inputComponents" % (extrudeAttr),len(newFaceList),*newFaceList,type = 'componentList')
     return 0
