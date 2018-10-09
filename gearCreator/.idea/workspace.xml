@@ -12,12 +12,15 @@
     <session id="1825988530">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,27 +36,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="py" value="2347" />
+          <entry key="py" value="2649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="2347" />
+          <entry key="Python" value="2649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5704942">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GearMaker.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="19">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                   <folding>
                     <marker date="1538661288136" expanded="true" signature="1223:1345" ph="..." />
                   </folding>
@@ -65,10 +68,10 @@
             <entry file="file://$PROJECT_DIR$/GearMaker_ClassVer.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="266">
-                  <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+                  <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
                   <folding>
-                    <marker date="1538662016608" expanded="true" signature="69:147" ph="..." />
-                    <marker date="1538662016608" expanded="true" signature="204:213" ph="..." />
+                    <marker date="1539096701582" expanded="true" signature="69:282" ph="..." />
+                    <marker date="1539096701582" expanded="true" signature="1280:1422" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -77,12 +80,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GearMaker.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="482">
+                  <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
                   <folding>
                     <marker date="1538661288136" expanded="true" signature="1223:1345" ph="..." />
                   </folding>
@@ -118,9 +121,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="464" />
-    <option name="y" value="10" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="115" />
+    <option name="y" value="46" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -130,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,8 +205,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1546" height="908" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092946604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,7 +242,7 @@
     <entry file="file://$PROJECT_DIR$/GearMaker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <marker date="1538661288136" expanded="true" signature="1223:1345" ph="..." />
           </folding>
@@ -248,10 +252,10 @@
     <entry file="file://$PROJECT_DIR$/GearMaker_ClassVer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
-            <marker date="1538662016608" expanded="true" signature="69:147" ph="..." />
-            <marker date="1538662016608" expanded="true" signature="204:213" ph="..." />
+            <marker date="1539096701582" expanded="true" signature="69:282" ph="..." />
+            <marker date="1539096701582" expanded="true" signature="1280:1422" ph="..." />
           </folding>
         </state>
       </provider>
